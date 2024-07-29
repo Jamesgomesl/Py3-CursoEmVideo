@@ -8,5 +8,3 @@ print(f"""1. Os primeiros colocados do Brasileirão em 29/10/2021 são:
 3. Os times em ordem alfabética são:
 {sorted(campeonato_brasileiro)}
 4. E a Chapecoense está na {campeonato_brasileiro.index('Chapecoense') + 1}ª posição""")
-
-# [-4:]>>>>>[-1:-5:-1]
