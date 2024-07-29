@@ -1,0 +1,5 @@
+print('Conversor de medidas')
+v = float(input('Insira o valor em metros: '))
+print('Equivale a:')
+print(v*100, 'cm')
+print(v*1000, 'mm')
