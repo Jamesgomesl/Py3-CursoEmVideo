@@ -1,13 +1,19 @@
 ﻿
-        MUNDO 1 - FUNDAMENTOS DE PYTHON 3
+	MUNDO 1 - FUNDAMENTOS DE PYTHON 3
+
+	AULA 05 - INSTALANDO O PYCHARM E O QPYTHON3
 
 ex001: Crie um programa que escreva “Olá, Mundo” na tela
 
 ex002: Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas vindas
 
+	AULA 06 - TIPOS PRIMITIVOS E SAÍDA DE DADOS
+
 ex003: Crie um programa que leia dois números e mostre a soma entre eles
 
 ex004: Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas a s informações possíveis sobre ele
+
+	AULA 07 - OPERADORES ARITMÉTICOS
 
 ex005: faça um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor
 
@@ -32,6 +38,8 @@ ex014: Escreva um programa que converta um a temperatura digitada em ºC e conve
 
 ex015: Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60 por dia e R$ 0,15 por Km rodado.
 
+	AULA 08 - UTILIZANDO MÓDULOS
+
 ex016: Crie um programa que leia um número Real qualquer pelo teclado e mostre na tela a sua porção Inteira.
 Ex: Digite um número: 6.127
       O número 6.127 tem a parte Inteira 6.
@@ -45,6 +53,8 @@ ex019: Um professor quer sortear um dos seus quatro alunos para apagar o quadro.
 ex020: O mesmo professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos. Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada.
 
 ex021: Faça um programa em python que abra e reproduza o áudio de um arquivo MP3.
+
+	AULA 09 - MANIPULANDO TEXTO
 
 ex022: Crie um programa que leia o nome completo de uma pessoa e mostre:
 O nome com todas as letras maiúsculas e minúsculas.
@@ -72,6 +82,8 @@ Ex: Ana Maria de Souza
    primeiro = Ana
    último = Souza
 
+	AULA 10 - CONDIÇÕES (PARTE 01)
+
 ex028: Escreva um programa que faça o computador “pensar” em um número inteiro entre 0 e 5 e peça para o usuário tentar descobrir qual foi o número escolhido pelo computador. O programa deverá escrever na tela se o usuário venceu ou perdeu.
 
 ex029: Escreva um programa que leia a velocidade de uma carro. Se ele ultrapassar 80 km/h, mostre uma mensagem dizendo que ele foi multado. A multa vai custar R$ 7,00 por cada Km acima do limite.
@@ -88,8 +100,12 @@ ex034: Escreva um programa que pergunte o salário de um funcionário e calcule 
 
 ex035: Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.﻿
 
+	AULA 11 - CORES NO TERMINAL
+	# NO EXERCISES
+
         MUNDO 2 - ESTRUTURAS DE CONTROLE
 
+	AULA 12 - CONDICIONAIS ANINHADAS
         # CONDICIONAIS
 
 ex036: Escreva um programa para aproveitar o empréstimo bancário para a compra de uma casa. O programa vai perguntar o valor da casa, o salário do comprador e em quantos anos ele vai pagar.
@@ -143,7 +159,8 @@ ex044: Elabora um programa que calcule o valor a ser pago por um produto, consid
 
 ex045: Crie um programa que faça o computador jogar Jokenpô com você.
 
-        # Laço de repetição FOR
+	AULA 13 - ESTRUTURA DE REPETIÇÃO FOR
+	# Laço de repetição FOR
 
 ex046: Faça um programa que mostre na tela uma contagem regressiva para o estouro de fogos de artifício, indo de 10 até 0, com uma pausa de 1 segundo entre eles.
 
@@ -170,6 +187,7 @@ ex056: Deselvolva um programa que leia nome, idade e sexo de 4 pessoas. No final
     - Qual é o nome do homem mais velho.
     - Quantas mulheres tem menos de 20 anos.
 
+	AULA 14 - ESTRUTURA DE REPETIÇÃO WHILE
         # Laço de repetição WHILE
 
 ex057: Faça um programa que leia o sexo de uma pessoa, mas só aceite os valores 'M' ou 'F'. Caso esteja errado, peça a digitação novamente até ter um valor correto.
@@ -198,6 +216,7 @@ ex064: Crie um programa que leia vários números inteiros pelo teclado. O progr
 
 ex065: Crie um programa que leia vários números inteiros pelo teclado. No final da execução, mostre a média entre todos os valores e qual foi o maior e o menor valores lidos. O programa deve perguntar ao usuário  se ele quer ou não continuar a digitar valores.
 
+	AULA 15 - INTERROMPENDO REPETIÇÕES WHILE
         # Interrompendo repetições while
 
 ex066: Crie um programa que leia vários números inteiros pelo teclado. O programa só vai parar quando o usuário digitar o valor 999, que é a condição de parada. No final, mostre quantos números foram digitados e qual foi a soma entre eles(desconsiderando o flag).
@@ -221,6 +240,7 @@ OBS: Considere que o caixa possui cédulas de R$50, R$20, R$10 e R$ 1.
 
         # MUNDO 3 - Estruturas Complexas
 
+	AULA 16 - 
 	# Tuplas
 
 ex072: Crie um programa que tenha uma tupla totalmente preenchida com uma contagem por extenso, de zero até vinte.
@@ -246,6 +266,7 @@ No final, mostre uma listagem de preços, organizando os dados de forma tabular.
 ex077: Crie um programa que tenha uma tupla com várias palavras (não usar acentos).
 Depois disso, você deve mostrar, para cada palavra, quais são suas vogais.
 
+	AULA 17 - LISTAS (PARTE 1)
 	# Listas
 
 ex078: Faça um programa que leia 5 valores numéricos e guarde-os em uma lista.
@@ -271,8 +292,15 @@ Ao final, mostre o conteúdo das três listas geradas.
 ex083: Crie um programa onde o usuário digite uma expressão [MATEMÁTICA] qualquer que use parênteses.
 Seu aplicativo deverá analisar se a expressão passada está com os parênteses abertos ou fechados na ordem correta.
 
+	AULA 18 - LISTAS (PARTE 2)
 	# ??????????
 
 ex084: 
 
 ex085: 
+
+.
+.
+.
+
+ex089: 
