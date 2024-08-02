@@ -1,3 +1,6 @@
+# WHAT IS HARD
+# https://youtube.com/shorts/XeS4NrJiPUM?si=97W7VizJTIkQ3N2i
+
 valores = (int(input('Digite um número: ')),
            int(input('Digite outro número: ')),
            int(input('Digite mais um número: ')),
@@ -9,15 +12,20 @@ for n in range(4):
     valores = (valores + tuple(entrada))
 """  # com esse código tinha de caçar os valores em string... coisa terrível
 print(f'Você digitou os valores {valores}')
-print(f'O valor nove aparece {valores.count(9)} vezes')
-print(f'Tem um 3 na {valores.index(3)+1}ª posição')
+print(f'O valor nove aparece {valores.count(9)} vez(es)')
+if 3 in valores:
+    print(f'Tem um 3 na {valores.index(3)+1}ª posição')
+else: 
+    print(f'O valor 3 não aparece nesses dados')
 print('Os valores pares foram: \n(', end='')
 for value in valores:
     if value % 2 == 0:
         print(f'{value}, ', end='')
 else:
     print(')')
-# print(f"""0: {0 in valores}
+
+# print(f"""
+# 0: {0 in valores}
 # 2: {2 in valores}
 # 4: {4 in valores}
 # 6: {6 in valores}
