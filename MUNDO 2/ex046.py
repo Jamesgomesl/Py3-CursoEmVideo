@@ -24,3 +24,5 @@ print('\n    DANCE!  :P')
 
 sleep(3)
 input('\nENTER para sair')
+
+# executar em Terminal Dedicado no VSCODE
