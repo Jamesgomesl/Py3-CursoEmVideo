@@ -22,6 +22,7 @@ while len(lista_valores_numericos)<5:
     else:
         pass
 
+    # verificações
     if len(lista_valores_numericos) == 0:
             lista_valores_numericos.append(novo_valor)
     else:
@@ -30,6 +31,11 @@ while len(lista_valores_numericos)<5:
             # print(f'{n}. {valor}')
             if novo_valor < lista_valores_numericos[n]:
                 lista_valores_numericos.insert(n, novo_valor)
+                # print(f"adicionado na posição {n}")
+                """Revisando a aula do Guanabara percebi que usei while na função principal 
+                que poderia ser For; e for pra varrer algo que poderia ter usado while
+                Funciona? sim. Mas a solução dele é mais lógica e interessante. SENIORIDADE.
+                """
                 adicionado = True
                 break
         else:
